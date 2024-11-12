@@ -1,0 +1,26 @@
+{
+  "name": "pretty-terminals",
+  "version": "1.1.10",
+  "author": {
+    "name": "akifer2"
+  },
+  "description": "A library for colorful and icon-enhanced terminal output",
+  "main": "build/index.js",
+  "module": "build/index.js",
+  "types": "build/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc --build",
+    "prepublishOnly": "bun run build"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "pretty-terminals": "^1.1.5"
+  }
+}
